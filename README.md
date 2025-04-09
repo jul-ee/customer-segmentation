@@ -2,7 +2,7 @@
 
 본 프로젝트는 Kaggle에 공개된 E-Commerce 데이터를 바탕으로 고객들의 구매 행동을 분석하고, RFM 분석 및 추가적인 Feature Engineering을 통해 고객을 다양한 기준으로 분류 및 시각화하는 데 목적이 있습니다.
 
-> Stack: &nbsp;BigQuery(Google Cloud Platform), SQL, Jupyter Notebook, Pandas, Python
+> Tech Stack: &nbsp;BigQuery(Google Cloud Platform), SQL, Python (Pandas, Jupyter Notebook)
 
 > 데이터 출처: &nbsp;[Kaggle - E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 
@@ -11,7 +11,7 @@
 <br>
 
 ## 📂 사용 데이터셋
-- 2009년 12월 1일부터 2011년 12월 9일까지의 영국 온라인 도매상에서 수집된 거래 데이터
+- 2009년 12월 1일부터 2011년 12월 9일까지의 영국 기반 온라인 도매 쇼핑몰의 거래 기록 데이터
 - 주요 컬럼: `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
 
 <br>
@@ -40,21 +40,21 @@
 
 ## 주요 feature
 
-- `recency` 고객의 마지막 구매 이후 경과일
+- `recency`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;고객의 마지막 구매 이후 경과일
 
-- `purchase_cnt` 총 구매 거래 횟수
+- `purchase_cnt`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;총 구매 거래 횟수
 
-- `item_cnt` 구매한 총 제품 수량
+- `item_cnt`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;구매한 총 제품 수량
 
-- `user_total` 총 지출 금액
+- `user_total`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;총 지출 금액
 
-- `user_average` 평균 거래당 지출 금액
+- `user_average`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;고객 1회 거래당 평균 지출 금액
 
-- `unique_products` 고객이 구매한 고유 제품 개수
+- `unique_products`  &nbsp; &nbsp;고객이 구매한 고유 제품 개수
 
-- `average_interval` 평균 구매 간격 (일 단위)
+- `average_interval`  &nbsp;평균 구매 간격 (일 단위)
 
-- `cancel_rate` 전체 거래 중 취소된 거래 비율
+- `cancel_rate`  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;전체 거래 중 취소된 거래 비율
 
 
 <br>
